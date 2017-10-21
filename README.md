@@ -47,7 +47,7 @@ docker run -p 8080:8080 es6/api-service
 #                 ^            ^
 #          bind the port    container tag
 #          to your host
-#          machine port   
+#          machine port
 
 ```
 
