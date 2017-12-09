@@ -16,5 +16,9 @@ export default ({ config, db }) => {
 		res.json({ name: envVar, theKey: key });
 	});
 
+  api.get('/weather/umbrella', (req, res) => {
+    res.json({ umbrellaNeeded: true });
+  });
+
 	return api;
 }

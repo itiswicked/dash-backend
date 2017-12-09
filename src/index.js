@@ -12,7 +12,7 @@ require('dotenv').config()
 
 let app = express();
 app.server = http.createServer(app);
-
+app.use(express.static('public'));
 // logger
 app.use(morgan('dev'));
 
